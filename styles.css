@@ -1,7 +1,32 @@
+body{
+    margin: 0;
+    background-color:hsl(214, 60%, 80%);
+    text-align: center;
+}
+
+header{
+    background-color: aliceblue;
+}
+
 .board {
     display: grid;
-    grid-template-rows: 
-    80px 80px 80px 80px 80px 80px 80px 80px 80px;
-    grid-template-columns: 
-    80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: repeat(9, 80px);
+    grid-template-columns: repeat(9, 80px);
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    width: 720px;
+    height: 720px;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: white;
+    border: 4px solid rgb(158, 198, 233);
+}
+
+footer{
+    background-color: aliceblue;
 }
